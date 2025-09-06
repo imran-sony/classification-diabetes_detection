@@ -71,4 +71,4 @@ git clone [https://github.com/imran-sony/classification-diabetes_detection.git](
 cd classification-diabetes_detection
 
 
-Run the notebook or script to train and evaluate models.
+Run the notebook to train and evaluate models.
