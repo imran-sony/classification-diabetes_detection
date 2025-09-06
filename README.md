@@ -46,10 +46,12 @@ Dataset is split into 80% training and 20% testing using train_test_split.
 - ROC-AUC Score  
 
 5. ROC Curve Plotting  
+
 All models' ROC curves are plotted on a single graph for comparison.
 
-7. Model Performance Summary
-![Result](./Result.png)  
+6. Model Performance Summary  
+
+![Result](./Result.png)
 
 ---
 
