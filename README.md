@@ -1,10 +1,10 @@
-* 🩺 Diabetes Detection System
+# 🩺 Diabetes Detection System
 
 A machine learning-based classification system that predicts whether a person has diabetes using diagnostic data. This project explores multiple ML algorithms and evaluates their performance using key classification metrics and ROC curves.
 
 ---
 
-** 📊 Features in the Dataset
+## 📊 Features in the Dataset
 
 - Pregnancies  
 - Glucose  
@@ -18,7 +18,7 @@ A machine learning-based classification system that predicts whether a person ha
 
 ---
 
-** 🧠 Models Used
+## 🧠 Models Used
 
 - Logistic Regression  
 - K-Nearest Neighbors (KNN)  
@@ -27,7 +27,7 @@ A machine learning-based classification system that predicts whether a person ha
 
 ---
 
-** ⚙️ Project Workflow
+## ⚙️ Project Workflow
 1. Load the Dataset   
 Data is loaded using pandas from a CSV file (diabetes.csv) containing 768 records with 8 features and 1 target.
 
@@ -53,18 +53,19 @@ All models' ROC curves are plotted on a single graph for comparison.
 
 ---
 
-** 📈 Visualizations
+## 📈 Visualizations
 
 ROC curves comparing classifier performance  
 
 ![Output](./Output.png)
+
 ---
 
-** 🚀 Work on It
+## 🚀 Work on It
 
 Clone the repo:  
 
-git clone [(https://github.com/imran-sony/classification-diabetes_detection.git)](https://github.com/imran-sony/classification-diabetes_detection.git)  
+git clone [https://github.com/imran-sony/classification-diabetes_detection.git](https://github.com/imran-sony/classification-diabetes_detection.git)  
 cd classification-diabetes_detection
 
 
