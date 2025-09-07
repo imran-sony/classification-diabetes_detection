@@ -59,7 +59,19 @@ All models' ROC curves are plotted on a single graph for comparison.
 
 ROC curves comparing classifier performance  
 
-![Output](./Output.png)
+![Output](./Output.png)  
+
+Different problems require different evaluation strategies. Here's **why each metric fits best** in different scenarios:
+
+| Scenario | Important Metric | Why? |
+|----------|------------------|------|
+| **Medical Diagnosis** | **Recall (avoid FN)** | Missing a disease (False Negative) is dangerous. Better to raise more false alarms (FP) than miss a real case. |
+| **Spam Detection** | **Precision (avoid FP)** | Marking real emails as spam (False Positives) frustrates users. We want to be very sure before flagging something as spam. |
+| **Balanced Task** | **F1 Score** | When both FP and FN are equally costly (e.g. Titanic survival), we need a balance between precision and recall. |
+| **Marketing Campaign** | **Precision** | We'd rather send offers only to likely buyers. Sending to uninterested people (FP) wastes money. |
+| **Credit Risk / Loan Default** | **ROC-AUC** | We want to assess how well the model separates risky from safe borrowers, across different thresholds. ROC-AUC gives a threshold-independent performance summary. |
+
+📌 **Note:** Choose metrics based on **the cost of making wrong decisions** in your real-world use case.
 
 ---
 
